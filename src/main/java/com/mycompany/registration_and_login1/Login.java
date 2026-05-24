@@ -2,46 +2,65 @@ package com.mycompany.registration_and_login1;
 
 public class Login { // checking if the user meets certain conditions before granting access
 
-    public boolean checkUserName(String username) {
-        return username.length() <= 5 && username.contains("_");
+    boolean checkUserName(String username) {
+
+        return username.length() <= 5
+                && username.contains("_");
     }
 
-    public boolean checkPasswordComplexity(String password) {
-        return password.length() >= 8 && password.matches("^(?=.*[A-Z])(?=.*[0-9])(?=.*[\\W_]).{8,}$");
+    boolean checkPasswordComplexity(String password) {
+
+        return password.matches(
+                "^(?=.*[A-Z])(?=.*[0-9])(?=.*[\\W_]).{8,}$"
+        );
     }
 
-    public boolean checkCellPhoneNumber(String cellnumber) {
-        return cellnumber.matches("^\\+[0-9]{1,3}[0-9]{1,15}$");
+    boolean checkCellPhoneNumber(String cellnumber) {
+
+        return cellnumber.matches(
+                "^\\+[0-9]{1,3}[0-9]{1,15}$"
+        );
     }
 
-    public String registerUser(String username, String password) {
-        String message = "";
+    String registerUser(String username, String password) {
 
-        if (!(username.length() <= 5 && username.contains("_"))) {
-            message += "The username is incorrectly formatted. ";
+        if (checkUserName(username)
+                && checkPasswordComplexity(password)) {
+
+            return "User registered successfully";
+
+        } else {
+
+            return "User registration failed";
         }
+    }
 
-        if (!(password.length() >= 8 && password.matches("^(?=.*[A-Z])(?=.*[0-9])(?=.*[\\W_]).{8,}$"))) {
-            message += "The password does not meet the complexity requirements.";
+    boolean loginUser(
+            String login_username,
+            String username,
+            String login_password,
+            String password
+    ) {
+
+        return login_username.equals(username)
+                && login_password.equals(password);
+    }
+
+    String returnLoginStatus(
+            String login_username,
+            String username,
+            String login_password,
+            String password
+    ) {
+
+        if (login_username.equals(username)
+                && login_password.equals(password)) {
+
+            return "A successful login";
+
+        } else {
+
+            return "A failed login";
         }
-
-        if (message.isEmpty()) {
-            message = "The above conditions have been met, and the user has been registered successfully";
-        }
-
-        return message;
     }
-
-    public boolean loginUser(String login_username, String username, String login_password, String password) {
-        return login_username.equals(username) && login_password.equals(password);
-    }
-
-public String returnLoginStatus(String login_username, String username,String login_password, String password) {
-
-    if (!login_username.equals(username) || !login_password.equals(password)) {
-        return "A failed login";
-    } else {
-        return "A successful login";
-    }
-}
 }

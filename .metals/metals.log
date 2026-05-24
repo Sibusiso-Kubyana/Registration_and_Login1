@@ -2671,3 +2671,159 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequ
 	at java.lang.Thread.run(Thread.java:1474)
 
 2026.05.24 20:58:09 INFO  Exiting server
+2026.05.24 21:10:04 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1' for client Visual Studio Code 1.121.0.
+2026.05.24 21:10:05 INFO  time: initialize in 0.32s
+2026.05.24 21:10:06 INFO  Memory monitor started
+2026.05.24 21:10:13 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.24 21:10:13 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:10:15 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+May 24, 2026 9:10:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+May 24, 2026 9:10:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+May 24, 2026 9:10:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.05.24 21:10:19 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:10:19 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+May 24, 2026 9:10:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2026.05.24 21:10:19 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:10:19 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+May 24, 2026 9:10:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+May 24, 2026 9:10:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2026.05.24 21:10:19 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:10:19 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+May 24, 2026 9:10:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+May 24, 2026 9:10:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2026.05.24 21:10:19 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:10:20 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+May 24, 2026 9:10:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+May 24, 2026 9:10:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+May 24, 2026 9:10:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+May 24, 2026 9:10:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2026.05.24 21:10:20 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:10:21 WARN  no build target for: C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java
+May 24, 2026 9:10:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2026.05.24 21:10:20 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+May 24, 2026 9:10:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+2026.05.24 21:10:22 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+May 24, 2026 9:10:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+2026.05.24 21:10:22 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:10:23 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+May 24, 2026 9:10:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+May 24, 2026 9:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+May 24, 2026 9:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+May 24, 2026 9:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+May 24, 2026 9:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+2026.05.24 21:10:25 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:10:26 WARN  no build target for: C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java
+2026.05.24 21:10:25 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:10:25 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+May 24, 2026 9:10:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+May 24, 2026 9:10:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+May 24, 2026 9:10:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+2026.05.24 21:10:27 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:10:27 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:10:27 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+May 24, 2026 9:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+May 24, 2026 9:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+2026.05.24 21:10:27 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+May 24, 2026 9:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 45
+2026.05.24 21:10:27 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:10:28 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+May 24, 2026 9:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+May 24, 2026 9:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+2026.05.24 21:10:28 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:10:29 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:10:29 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:10:36 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Message.java. Using fallback presentation compiler.
+2026.05.24 21:10:36 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Message.java. Using fallback presentation compiler.
+2026.05.24 21:10:39 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:10:39 WARN  no build target for: C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java
+2026.05.24 21:10:39 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:10:39 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:10:39 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:10:39 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+May 24, 2026 9:10:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 74
+2026.05.24 21:11:13 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:11:13 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:11:14 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:11:16 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:11:16 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:11:16 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:11:17 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:11:18 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:11:29 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:11:29 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:11:29 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:11:32 WARN  no build target for: C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java
+2026.05.24 21:11:32 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:11:32 WARN  Running javac-semanticdb failed for file:///C:/Users/sbuku/OneDrive%20-%20ADvTECH%20Ltd/Documents/School%20modules/PROG/1A/Registration_and_Login1/src/main/java/com/mycompany/registration_and_login1/Login.java. Output:
+
+2026.05.24 21:11:32 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Login.java. Using fallback presentation compiler.
+2026.05.24 21:11:36 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:11:36 WARN  no build target for: C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java
+2026.05.24 21:11:36 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:11:37 WARN  no build target for: C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java
+2026.05.24 21:11:37 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:11:37 WARN  Running javac-semanticdb failed for file:///C:/Users/sbuku/OneDrive%20-%20ADvTECH%20Ltd/Documents/School%20modules/PROG/1A/Registration_and_Login1/src/main/java/com/mycompany/registration_and_login1/Registration_and_Login1.java. Output:
+
+2026.05.24 21:11:40 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:11:40 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:11:41 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:11:40 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:11:41 WARN  no build target for: C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java
+2026.05.24 21:11:41 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:11:41 WARN  Running javac-semanticdb failed for file:///C:/Users/sbuku/OneDrive%20-%20ADvTECH%20Ltd/Documents/School%20modules/PROG/1A/Registration_and_Login1/src/main/java/com/mycompany/registration_and_login1/Registration_and_Login1.java. Output:
+
+2026.05.24 21:11:42 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:11:42 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Registration_and_Login1.java. Using fallback presentation compiler.
+2026.05.24 21:11:44 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Message.java. Using fallback presentation compiler.
+2026.05.24 21:11:44 WARN  no build target for: C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Message.java
+2026.05.24 21:11:44 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Message.java. Using fallback presentation compiler.
+2026.05.24 21:11:46 WARN  no build target for: C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Message.java
+2026.05.24 21:11:46 INFO  no build target found for C:\Users\sbuku\OneDrive - ADvTECH Ltd\Documents\School modules\PROG\1A\Registration_and_Login1\src\main\java\com\mycompany\registration_and_login1\Message.java. Using fallback presentation compiler.
+2026.05.24 21:11:46 WARN  Running javac-semanticdb failed for file:///C:/Users/sbuku/OneDrive%20-%20ADvTECH%20Ltd/Documents/School%20modules/PROG/1A/Registration_and_Login1/src/main/java/com/mycompany/registration_and_login1/Message.java. Output:
+
+2026.05.24 21:11:50 INFO  Shutting down server
+2026.05.24 21:11:50 INFO  Memory monitor stopped
+2026.05.24 21:11:50 INFO  shutting down Metals
+2026.05.24 21:11:50 INFO  Exiting server
+2026.05.24 21:11:51 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.lang.Thread.run(Thread.java:1474)
+
