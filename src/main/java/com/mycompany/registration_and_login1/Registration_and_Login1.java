@@ -6,105 +6,225 @@ package com.mycompany.registration_and_login1;
 
 import java.util.Scanner;
 
-
+/**
+ *
+ * @author Student
+ */
 public class Registration_and_Login1 {
    
     public static void main(String[] args) {
-        Scanner scan= new Scanner(System.in);
-
-        Login login = new Login();
         
+        Scanner scan = new Scanner(System.in);
+        Login login = new Login();
+
         //Declaring variables for global use
         String username = "";
         String password = "";
         String cellnumber = "";
+
+        System.out.println("Welcome to QuickChat."); // REQUIRED
+
+       
+        // USERNAME REGISTRATION
+       
+
+        while (true) { //Loop until username conditions are met
+
+            System.out.println("Enter username:");
+            username = scan.nextLine();
+
+            if (login.checkUserName(username)) {
+                System.out.println("Username successfully captured");
+                break;
+            } else {
+                System.out.println("Username is not correctly formatted, please ensure that your username contains an underscore and is no more than 5 characters in length");
+            }
+        }
+
         
+        // PASSWORD REGISTRATION
         
-        
-         while (true) { //creating a loop until conditions for username are met 
-        System.out.println("Enter your username");
-        username= scan.nextLine();
-        
-        if (username.length() <=5 && username.contains("_")) { //equal to or less than 5 characters and contains underscore
-            System.out.println("Username successfully captured");
-            break; // break loop
-         } 
-         
-        else {
- System.out.println("Username is not correctly formartted; please ensure that username contains an underscore and is no more than five characters in length");}
- }
-                
-        
-while (true) { //Loop until conditions for password are met
-System.out.println("Enter your new password");
-password = scan.nextLine();
 
-String regex_password = "^(?=.*[A-Z])(?=.*[0-9])(?=.*[\\W_]).{8,}$"; // Declaring and assigning regex
+        while (true) { //Loop until conditions for password are met
 
-if (password.length() >=8 && password.matches(regex_password)) {
-    /** ^,it means the beginning of the string
-    (?=.*[A-Z], it scans for at least one uppercase
-    (?=.*[0-9]), it scans for at least one number
-    (?=.*[\\W_]), it scans for at least one special character
-    {8,} , it means at least 8 characters long
-     +$, means end of the string, containing one or more previous groups */ 
-    System.out.println("Password successfully captured");
-break;} //break loop
-else {
-System.out.println("Password is not correctly formatted; please ensure that the password contains at least eight characters, a capital letter, a number, and a special character");
-}  
-}
+            System.out.println("Enter your new password");
+            password = scan.nextLine();
 
-while(true) { //Loop until it meets the required conditions for cellphone
-  System.out.println("Enter your cell phone number");
-cellnumber= scan.nextLine();
+            if (login.checkPasswordComplexity(password)) {
+                System.out.println("Password successfully captured");
+                break;
+            } else {
+                System.out.println("Password is not correctly formatted; please ensure that the password contains at least eight characters, a capital letter, a number, and a special character");
+            }
+        }
 
-String regex = "^\\+[0-9]{1,3}[0-9]{1,15}$"; //Declaring and assigning regex
+      
+        // CELL NUMBER REGISTRATION
+      
 
+        while (true) { //Loop until it meets the required conditions for cellphone
 
-if (cellnumber.matches(regex)) {
-    /** Regex explanation :
-^\+ means the cell number will start with a +
-[0-9] country code, {1,3} only 1 to 3 digits allowed
-[0-9] number parts, {1,15} only 1 to 15 digits allowed
-$, means the last part must end with the last group*/
-    
-System.out.println("Cell phone number successfully added");
-break;} 
+            System.out.println("Enter your cell phone number");
+            cellnumber = scan.nextLine();
 
-else { 
-System.out.println("Cell phone number incorrectly formatted or does not contain international code");
-}
-}
+            if (login.checkCellPhoneNumber(cellnumber)) {
+                System.out.println("Cell phone number successfully added");
+                break;
+            } else {
+                System.out.println("Cell phone number is incorrectly formatted or does not contain an international code. Please correct the number and try again.");
+            }
+        }
 
-// previous registration details for username, password, and cell must remain the same)
+       
+        // REGISTER USER
+       
 
-// to give an update if the registration is successful or not
-String regStatus = login.registerUser(username, password);
-System.out.println(regStatus);
+        System.out.println(login.registerUser(username, password));
 
-// 2. LOGIN PROCESS
-while (true) {
-    System.out.println("Enter your username to login");
-    String login_username = scan.nextLine();
-    
-    System.out.println("Enter your password to login");
-    String login_password = scan.nextLine();
-    
-    // We check if the login is successful or not
-    if (login.loginUser(login_username, username, login_password, password)) {
-        
-        // Print the "A successful login" message from the Login class
-        System.out.println(login.returnLoginStatus(login_username, username, login_password, password));
-        
-        System.out.println("Welcome " + username + " it is great to see you again");
-        break;
-    } else {
-        // Print the "A failed login" message from the Login class
-        System.out.println(login.returnLoginStatus(login_username, username, login_password, password));
-        
-        System.out.println("Username or password incorrect please try again");
+       
+        // LOGIN PROCESS
+       
+
+        boolean isLoggedIn = false;
+
+        while (true) {
+
+            System.out.println("Enter username to login:");
+            String login_user = scan.nextLine();
+
+            System.out.println("Enter password to login:");
+            String login_pass = scan.nextLine();
+
+            if (login.loginUser(login_user, username, login_pass, password)) {
+                System.out.println(login.returnLoginStatus(login_user, username, login_pass, password));
+                isLoggedIn = true;
+                break;
+            } else {
+                System.out.println("Username or password incorrect please try again");
+            }
+        }
+
+       
+        // MAIN MENU LOOP
+       
+
+        int totalMessages = 0;
+
+        while (true) {
+
+            System.out.println("\nMENU:");
+            System.out.println("1. Send Messages");
+            System.out.println("2. Show recently sent messages");
+            System.out.println("3. Quit");
+
+            String choice = scan.nextLine();
+
+            if (choice.equals("1")) {
+
+                // HOW MANY MESSAGES USER WANTS
+                System.out.println("How many messages do you want to send?");
+                int numMessages = Integer.parseInt(scan.nextLine());
+
+                for (int i = 0; i < numMessages; i++) {
+
+                    System.out.println("\nEnter recipient number:");
+                    String recipient = scan.nextLine();
+
+                    System.out.println("Enter your message:");
+                    String content = scan.nextLine();
+
+                    Message msg = new Message(recipient, content);
+
+                    // Validate recipient
+                    System.out.println(msg.checkRecipientCell());
+
+                    // Validate message length 
+                    String validation = msg.checkMessageContent(content);
+
+                    if (!validation.equals("Message ready to send.")) {
+                        System.out.println(validation);
+                        continue;
+                    }
+
+                    System.out.println(validation);
+
+                    
+                    System.out.println("Message Hash: " + msg.createMessageHash());
+
+                    // ACTION MENU
+                    System.out.println("\n1. Send Message");
+                    System.out.println("2. Disregard Message");
+                    System.out.println("3. Store Message to send later");
+
+                    String action = scan.nextLine();
+
+                    System.out.println(msg.SentMessage(action));
+
+                    if (action.equals("1")) {
+
+                        totalMessages++;
+
+                        System.out.println("\nMessage ID: " + msg.getMessageID());
+                        System.out.println("Message Hash: " + msg.createMessageHash());
+                        System.out.println("Recipient: " + recipient);
+                        System.out.println("Message: " + content);
+                    }
+                }
+
+                System.out.println("\nTotal messages sent: " + totalMessages);
+            }
+
+            else if (choice.equals("2")) {
+                System.out.println("Coming Soon.");
+            }
+
+            else if (choice.equals("3")) {
+                System.out.println("Goodbye.");
+                break;
+            }
+
+            else {
+                System.out.println("Invalid option.");
+            }
+        }
+
+        scan.close();
     }
 }
+
+class Login { // checking if the user meets certain conditions before granting access
+
+    boolean checkUserName(String username) {
+        return username.length() <= 5 && username.contains("_");
+    }
+
+    boolean checkPasswordComplexity(String password) {
+        return password.matches("^(?=.*[A-Z])(?=.*[0-9])(?=.*[\\W_]).{8,}$");
+    }
+
+    boolean checkCellPhoneNumber(String cellnumber) {
+        return cellnumber.matches("^\\+[0-9]{1,3}[0-9]{1,15}$");
+    }
+
+    String registerUser(String username, String password) {
+
+        if (checkUserName(username) && checkPasswordComplexity(password)) {
+            return "User registered successfully";
+        } else {
+            return "User registration failed";
+        }
+    }
+
+    boolean loginUser(String login_username, String username, String login_password, String password) {
+        return login_username.equals(username) && login_password.equals(password);
+    }
+
+    String returnLoginStatus(String login_username, String username, String login_password, String password) {
+
+        if (login_username.equals(username) && login_password.equals(password)) {
+            return "A successful login";
+        } else {
+            return "A failed login";
+        }
     }
 }

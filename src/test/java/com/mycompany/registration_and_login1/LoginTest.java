@@ -16,12 +16,11 @@ public class LoginTest {
     }
 
     @Test
-    public void testRegisterUser_PasswordSuccess() {
-        // Test Data: "Ch&&sec@ke99!"
-        String expected = "Password successfully captured.";
-
-        assertEquals(expected, "Password successfully captured."); 
-    }
+public void testRegisterUser_PasswordSuccess() {
+    // Call the actual method and compare
+    boolean actual = login.checkPasswordComplexity("Ch&&sec@ke99!");
+    assertTrue(actual);
+}
 
     @Test
     public void testRegisterUser_PasswordFailure() {
